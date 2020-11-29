@@ -18,3 +18,20 @@ Each folder in 1, 2, 3 contains the following files -
 1. article_data.pkl
 2. frame_data.pkl
 3. subframe_data.pkl
+
+These files can be read by the procedure written in ''. The description of the datastructures contained in these files are as follows.
+
+1. article_data.pkl
+..* article2URL: type: dictionary; key: article; value: URL
+..* article2dop: type: dictionary; key: article; value: date of publication
+..* article2headline: type: dictionary; key: article; value: headline of the article
+..* article2headline: type: dictionary; key: article; value: original text of the article
+..* article2label: type: dictionary; key: article; value: label of the article (left/right)
+..* article2segment_ids: type: dictionary; key: article; value: ids of the segments containing the article (described as paragraphs in the paper)
+..* seg_id2text: type: dictionary; key: segment ids; value: text of the segment
+2. frame_data.pkl
+..* frame2bigrams: type: dictionary; key: frame; value: stemmed bigram lexicon for the frame
+..* frame2trigrams: type: dictionary; key: frame; value: stemmed trigram lexicon for the frame
+..* frame2sfs: type: dictionary; key: frame; value: subframes for the frame
+3. subframe_data.pkl
+..* subframe2ngrams: type: dictionary; key: subframe; value: set of annotated stemmed bigrams and trigrams for the subframe
