@@ -8,7 +8,13 @@ This repository contains dataset and codes for predicting subframes in text. The
 
 ## Dataset
 
-The datasets can be found in the following Links 
+The datasets can be found in the following Links -
 1. [Abortion]()
 2. [Immigration]()
 3. [Gun Control]()
+4. [General Frame Lexicon]()
+
+Each folder in 1, 2, 3 contains the following files -
+1. article_data.pkl
+2. frame_data.pkl
+3. subframe_data.pkl
