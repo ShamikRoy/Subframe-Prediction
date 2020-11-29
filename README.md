@@ -64,5 +64,9 @@ The following three files contain the implementation of the embedding learning p
 2. **Embedder.py**
 3. **BLSTM.py**
 
-**Command: ** `run.py [-h] -i INPUT_FOLDER -o OUTPUT_FOLDER`
+### Command 
+`python run.py [-h] -i INPUT_FOLDER -o OUTPUT_FOLDER`
+
+
+### Additional Notes
 
