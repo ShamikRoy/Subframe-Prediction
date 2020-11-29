@@ -2,9 +2,9 @@
 
 This repository contains dataset and codes for predicting subframes in text. The approach is describe in the following paper.
 
-> [Weakly Supervised Learning of Nuanced Frames for Analyzing Polarization in News Media\
+> [Weakly Supervised Learning of Nuanced Frames for Analyzing Polarization in News Media\](https://www.aclweb.org/anthology/2020.emnlp-main.620.pdf)
 > Shamik Roy and Dan Goldwasser\
-> Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)](https://www.aclweb.org/anthology/2020.emnlp-main.620.pdf)
+> Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020)
 
 ## Dataset
 
