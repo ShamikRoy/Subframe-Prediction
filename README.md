@@ -14,12 +14,12 @@ The datasets can be found in the following Links -
 3. [Gun Control]()
 4. [General Frame Lexicon]()
 
-Each folder in 1, 2, 3 contains the following files -
+### Folder in 1, 2, 3 contains the following files -
 1. **article_data.pkl**
 2. **frame_data.pkl**
 3. **subframe_data.pkl**
 
-These files can be read by the procedure written in ''. The description of the datastructures contained in these files are as follows.
+These files can be read by the procedure written in ''. The description of the data-structures contained in these files are as follows.
 
 1. **article_data.pkl**
 * article2URL: type: dictionary; key: article; value: URL
@@ -35,3 +35,13 @@ These files can be read by the procedure written in ''. The description of the d
 * frame2sfs: type: dictionary; key: frame; value: subframes for the frame
 3. **subframe_data.pkl**
 * subframe2ngrams: type: dictionary; key: subframe; value: set of annotated stemmed bigrams and trigrams for the subframe
+
+### Folder in 4 contains the general frame lexicon. It contains the following file - 
+1. **general_frame_data.pkl**
+
+These file can be read by the procedure written in ''. The description of the data-structures contained in this file are as follows.
+
+1. **general_frame_data.pkl**
+* frame_name2lexicon: type: dictionary; key: frame; value: general stemmed unigram lexicon for the frame
+* stem2words: type: dictionary; key: stem; value: corresponding set of words
+
