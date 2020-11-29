@@ -46,11 +46,12 @@ def Read_Files():
     '''
     This file contains pre-processed format of the dataset suitable for the embedding learning.
     Every element - paragraph (doc), subframe, bigram, trigram; are encoded with a unique numeric id.
-    The mapping to the encoded id and the original name of the element can be found in 'id2name' and 'name2id' dictionaries.
+    The mapping to the encoded id and the original name of the element can be found in dictionaries named 
+    'id2name' and 'name2id'.
 
-    Then all of the elements are encoded to a graph structure. Where there exists an edge from a paragraph (doc) to a bi/tri-gram
-    if the bi/tri-gram is present in the paragraph, and a bi/tri-gram is connected to its corresponding subframe label (if there is a label).
-    This adjacency list can be found in the 'graph'
+    Then all of the elements are encoded to a graph structure. Where there exists an edge from a paragraph 
+    (doc) to a bi/tri-gram if the bi/tri-gram is present in the paragraph, and a bi/tri-gram is connected to 
+    its corresponding subframe label (if there is a label). This adjacency list can be found in 'graph'.
 
     doc_start, doc_end = starting and ending ids of the paragraphs
     bigram_srart, bigram_end = starting and ending ids of the bigrams
@@ -58,12 +59,12 @@ def Read_Files():
     subframe_srart, subframe_end = starting and ending ids of the subframes
     '''
 
-    with open("tokenized_paragraphs.pkl", "rb") as f:
-        [weights_matrix, segment2tokenized_text] = pickle.load(f)
+    with open("tokenized_paragraphs.pkl", "rb") as in_file:
+        [weights_matrix, segment2tokenized_text] = pickle.load(in_file)
 
     '''
-    This file contains preprocessed data-structures containing segments (paragraphs) in a tokenized format (segment2tokenized_text)
-    weight_matrix is a n*m dimensional matrix, where n=number of unique tokens in the whole corpus and m=GloVe embedding dimension
+    This file contains preprocessed data-structures containing segments (paragraphs) in a tokenized format (segment2tokenized_text).
+    weight_matrix is a n*m dimensional matrix, where n=number of unique tokens in the whole corpus and m=GloVe embedding dimension (300 here).
     '''
 
 
