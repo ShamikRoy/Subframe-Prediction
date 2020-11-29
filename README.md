@@ -9,6 +9,6 @@ This repository contains dataset and codes for predicting subframes in text. The
 ## Dataset
 
 The datasets can be found in the following Links 
-..* [Abortion]()
-..* [Immigration]()
-..* [Gun Control]()
+1. [Abortion]()
+2. [Immigration]()
+3. [Gun Control]()
