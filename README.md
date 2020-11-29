@@ -14,7 +14,7 @@ The datasets can be found in the following Links -
 3. [Gun Control]()
 4. [General Frame Lexicon]()
 
-#### Folder in 1, 2, 3 contains the following files -
+### Folders in 1, 2, 3 contains the following files -
 1. **article_data.pkl**
 2. **frame_data.pkl**
 3. **subframe_data.pkl**
@@ -36,7 +36,7 @@ These files can be read by the procedure written in _'read_data.py'_. The descri
 3. **subframe_data.pkl**
 * subframe2ngrams: type: dictionary; key: subframe; value: set of annotated stemmed bigrams and trigrams for the subframe
 
-#### Folder in 4 contains the general frame lexicon. It contains the following file - 
+### Folder in 4 contains the general frame lexicon. It contains the following file - 
 1. **general_frame_data.pkl**
 
 These file can be read by the procedure written in _'read_data.py'_. The description of the data-structures contained in this file are as follows.
@@ -45,8 +45,8 @@ These file can be read by the procedure written in _'read_data.py'_. The descrip
 * frame_name2lexicon: type: dictionary; key: frame; value: general stemmed unigram lexicon for the frame
 * stem2words: type: dictionary; key: stem; value: corresponding set of words
 
-#### Additional Notes
-1. All unigram, bigram and trigram lexicon are stemmed lexicon. **_Python Lancaster Stemmer_** was used for stemming in this project.
+### Additional Notes
+1. All unigram, bigram and trigram lexicon are stemmed lexicon. **_NLTK Lancaster Stemmer_** was used for stemming in this project.
 2. The un-stemmed phrases from the bigram and trigram lexicons can be found in the appendix of the paper.
 
 
