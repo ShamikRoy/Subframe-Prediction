@@ -66,7 +66,9 @@ The following three files contain the implementation of the embedding learning p
 
 ### Command 
 `python run.py [-h] -i INPUT_FOLDER -o OUTPUT_FOLDER`
-
+* `INPUT_FOLDER` : Path to the folder containing _graph_info.pkl_ and _tokenized_paragraphs.pkl_.
+* `OUTPUT_FOLDER` : Path to the folder while the learned embeddings will be saved.
 
 ### Additional Notes
+
 
