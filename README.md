@@ -58,3 +58,11 @@ The following pre-processed files are needed to run the embedding learning.
 
 These files for the topics _Abortion_, _Immigration_ and _Gun Control_ are contained in the folders containing the datasets for these three topics respectively. Their parsing information can be found in _'read_data.py'_.
 
+### Implementation
+The following three files contain the implementation of the embedding learning proposed in the paper.
+1. **run.py**
+2. **Embedder.py**
+3. **BLSTM.py**
+
+**Command: ** `run.py [-h] -i INPUT_FOLDER -o OUTPUT_FOLDER`
+
