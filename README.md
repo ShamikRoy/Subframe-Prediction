@@ -46,7 +46,7 @@ These file can be read by the procedure written in _'read_data.py'_. The descrip
 * stem2words: type: dictionary; key: stem; value: corresponding set of words
 
 ### Additional Notes
-1. All unigram, bigram and trigram lexicon are stemmed lexicon. **_NLTK Lancaster Stemmer_** was used for stemming in this project.
+1. All unigram, bigram and trigram lexicons are stemmed lexicons. **_NLTK Lancaster Stemmer_** was used for stemming in this project.
 2. The un-stemmed phrases from the bigram and trigram lexicons can be found in the appendix of the paper.
 
 
