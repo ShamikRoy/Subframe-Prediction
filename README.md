@@ -71,4 +71,4 @@ The following three files contain the implementation of the embedding learning p
 
 ### Additional Notes
 1. The learned embeddings were used for the qualitative and quantitative analysis.
-
+2. GPUs will be needed to run the code in a reasonable amount of time.
