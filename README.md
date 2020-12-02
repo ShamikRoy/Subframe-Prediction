@@ -69,7 +69,7 @@ The following three files contain the implementation of the embedding learning p
 * `INPUT_FOLDER` : Path to the folder containing _graph_info.pkl_ and _tokenized_paragraphs.pkl_.
 * `OUTPUT_FOLDER` : Path to the folder where the learned embeddings will be saved.
 
-### Additional Notes
+### Additional Notes and Acknowledgements
 1. The learned embeddings were used for the qualitative and quantitative analysis.
 2. GPUs will be needed to run the code in a reasonable amount of time.
 3. The embedding learning codes are inspired from https://github.com/BillMcGrady/StancePrediction/tree/master/code. 
