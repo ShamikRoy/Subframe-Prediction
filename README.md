@@ -73,3 +73,8 @@ The following three files contain the implementation of the embedding learning p
 1. The learned embeddings were used for the qualitative and quantitative analysis.
 2. GPUs will be needed to run the code in a reasonable amount of time.
 3. The embedding learning codes are inspired from https://github.com/BillMcGrady/StancePrediction/tree/master/code. 
+
+## Citation
+If you find the approach helpful in your work, please cite the paper.
+
+
