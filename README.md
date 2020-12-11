@@ -77,4 +77,12 @@ The following three files contain the implementation of the embedding learning p
 ## Citation
 If you find the approach helpful in your work, please cite the paper.
 
+`@inproceedings{roy2020weakly,
+  title={Weakly Supervised Learning of Nuanced Frames for Analyzing Polarization in News Media},
+  author={Roy, Shamik and Goldwasser, Dan},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={7698--7716},
+  year={2020}
+}`
+
 
