@@ -8,7 +8,7 @@ def Read_Files():
     article2URL: type: dictionary; key: article; value: URL
     article2dop: type: dictionary; key: article; value: date of publication
     article2headline: type: dictionary; key: article; value: headline of the article
-    article2headline: type: dictionary; key: article; value: original text of the article
+    article2text: type: dictionary; key: article; value: original text of the article
     article2label: type: dictionary; key: article; value: label of the article (left/right)
     article2segment_ids: type: dictionary; key: article; value: ids of the segments containing the article (described as paragraphs in the paper)
     seg_id2text: type: dictionary; key: segment ids; value: text of the segment
