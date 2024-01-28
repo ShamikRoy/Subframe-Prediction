@@ -9,10 +9,10 @@ This repository contains dataset and codes for predicting subframes in text. The
 ## Dataset
 
 The datasets can be found in the following Links -
-1. [Abortion](https://drive.google.com/drive/folders/1_WhCDhT8n_7c1cdMHeFhd1lROXiqIcJ0?usp=sharing)
-2. [Immigration](https://drive.google.com/drive/folders/1cnyqtyG7-GBtMZpRGZnMo-CJul9_UQM8?usp=sharing)
-3. [Gun Control](https://drive.google.com/drive/folders/1X2-_NUCsFRqgnjAH9jHrrWJK4ayKNGu2?usp=sharing)
-4. [General Frame Lexicon](https://drive.google.com/drive/folders/1tlrwrnphwOUe2iP0U0KVukiyRq5SoOO6?usp=sharing)
+1. [Abortion](https://drive.google.com/drive/folders/1g9P6vHTJ1nNec1zrBZggcNYu_Lmm95Oa?usp=sharing)
+2. [Immigration](https://drive.google.com/drive/folders/1OAND83Jtng46WuVKMZx0dpO2o3UtbuUD?usp=sharing)
+3. [Gun Control](https://drive.google.com/drive/folders/1nJ-kzZeIJkUzwRTjFAOAPTbMpd64N7L_?usp=sharing)
+4. [General Frame Lexicon](https://drive.google.com/drive/folders/167EIDDD_spjdDHhewj_QVZiRv7FGAHL5?usp=sharing)
 
 ### Folders in 1, 2, 3 contains the following files -
 1. **article_data.pkl**
